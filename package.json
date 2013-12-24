@@ -1,0 +1,18 @@
+{
+  "name": "yahoo-cricket-api-wrapper",
+  "version": "0.0.0",
+  "description": "Wrapper around yahoo cricket json api.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cricket",
+    "yahoo"
+  ],
+  "author": "Manan Vaghasiya",
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.30.0"
+  }
+}
