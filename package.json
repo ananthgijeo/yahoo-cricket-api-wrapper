@@ -1,16 +1,24 @@
 {
   "name": "yahoo-cricket-api-wrapper",
   "version": "0.0.0",
-  "description": "Wrapper around yahoo cricket json api.",
+  "description": "Wrapper around yahoo cricket yql api.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "cricket",
-    "yahoo"
+    "cricket-scores",
+    "scores",
+    "score",
+    "cricket-api"
   ],
-  "author": "Manan Vaghasiya",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manV/yahoo-cricket-api-wrapper.git"
+  },
+  "homepage": "https://github.com/manV/yahoo-cricket-api-wrapper",
+  "author": "Manan Vaghasiya<manan.vaghasiya@yahoo.com>",
   "license": "MIT",
   "dependencies": {
     "request": "~2.30.0"

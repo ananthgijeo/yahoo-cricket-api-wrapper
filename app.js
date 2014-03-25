@@ -1,14 +1,14 @@
+/**
+Wrapper around yahoo cricket yql api
+@module yahoo-cricket-api-wrapper
+**/
+
 /* jslint node:true */
 "use strict";
 
-var upcoming = require('./lib/upcoming.js');
-var util = require('util');
-
-upcoming.getUpcomingMatches(2, 11990, function(err, data) {
-  if (!err) {
-    console.log(util.inspect(data, false, null));
-  } else {
-    console.log(err);
-  }
-});
-
+module.exports.live = require('./lib/live.js');
+module.exports.ongoing = require('./lib/ongoing.js');
+module.exports.past = require('./lib/past.js');
+module.exports.player = require('./lib/player.js');
+module.exports.team = require('./lib/team.js');
+module.exports.upcoming = require('./lib/upcoming.js');
