@@ -21,6 +21,6 @@
   "author": "Manan Vaghasiya<manan.vaghasiya@yahoo.com>",
   "license": "MIT",
   "dependencies": {
-    "request": "~2.30.0"
+    "request": "~2.68.0"
   }
 }
